@@ -1,0 +1,176 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.scene {
+  width: 65%;
+  height: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.logs {
+  width: 35%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.house-marker img {
+  width: 24px;
+  height: 24px;
+  transform: translate(-50%, -100%);
+}
+
+.house-marker img:hover {
+  width: 32px;
+  height: 32px;
+}
+
+.map-popup {
+  margin: 0.1rem;
+  color: black;
+}
+
+.map-popup h3 {
+  font-size: 1.2rem;
+  margin: 0.1rem 0;
+}
+
+.map-popup p span {
+  font-weight: bold;
+}
+
+.map-popup .mapboxgl-popup-content {
+  padding: 12px 12px 15px;
+}
+
+.map-popup .mapboxgl-popup-content {
+  padding-top: 20px;
+}
+
+.map-popup .house-damage-bar {
+  width: calc(100% - 0.4rem);
+  height: 10px;
+  margin: 0.5rem 0.2rem;
+  background: rgb(65, 65, 65);
+  border-radius: 5px;
+  position: relative;
+}
+
+.map-popup .house-damage-health {
+  height: 6px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 5px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs .nav-item {
+  flex: 1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tab-content {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  height: 100%;
+  color: white;
+  overflow-y: auto;
+}
+
+.tabs .nav-link {
+  font-weight: 500;
+  color: black;
+  border: none !important;
+}
+
+.tabs .nav-link:hover {
+  color: gray;
+}
+
+.tabs .nav-link.active {
+  color: white !important;
+}
+
+.tab-content .tab-pane {
+  margin: 0.5rem;
+}
+
+.healthbar {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.healthbar-progress {
+  flex: 0.95;
+}
+
+.food {
+  font-size: 12px;
+}
+
+.energybar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal-dialog {
+  width: 80vw !important;
+  max-width: 80vw !important;
+  height: 70vh;
+}
+
+.info-modal {
+  height: 100%;
+}
+
+.info-modal h4 {
+  text-align: center;
+}
+
+.info-modal .modal-body{
+  padding: 1rem;
+  overflow-y: hidden;
+}
+
+.table {
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+th, td {
+  text-align: center !important;
+  vertical-align: middle;
+}
+
+tr > td:first-child {
+  width: 30%;
+}
+
+.earthquake-info--list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}

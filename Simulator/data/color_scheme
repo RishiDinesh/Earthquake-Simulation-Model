@@ -1,0 +1,32 @@
+2 tabs - logs and population/hotel
+
+Logs:
+  # Process Message
+
+  id, health, stage, individual-log
+
+  tt, wt
+
+  # color
+  red -> moving to evacuation center
+  yellow -> evacuation centers, ppl at evacuation center
+  dark yellow -> evacuation signal
+  truck movement
+  blue -> relief camp, ppl at relief camp
+  cyan -> after relief camp
+  cyan -> medical camp
+  green -> after medical camp / in food distribution
+  gray / purple -> after food distribution
+  purple -> inspection center (center of red zone, signal after evacuation)
+  dark-purple -> patchup (resident n house)
+
+  food-collection -> after evacuation (orange -> active)
+  
+
+
+  # logs
+  evacuation center
+  evacuation complete
+  relief camp arrival
+  tt, wt
+
